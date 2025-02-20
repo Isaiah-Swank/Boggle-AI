@@ -197,7 +197,7 @@ def reset_game_state(dictionary, prefix_set):
 def main():
     pygame.init()
     screen = pygame.display.set_mode((WINDOW_WIDTH, WINDOW_HEIGHT))
-    pygame.display.set_caption("Boggle Game - Gradual Reveal of Possible Words")
+    pygame.display.set_caption("Word Puzzle Solver")
     clock = pygame.time.Clock()
 
     # Load dictionary and build prefix set
